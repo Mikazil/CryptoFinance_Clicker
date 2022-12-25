@@ -1,0 +1,207 @@
+/*Импорт шрифтов*/
+@font-face {
+    font-family: 'Nerko One';
+    src: url(fonts/NerkoOne-Regular.ttf);
+}
+
+/*Весь документ*/
+body {
+    position: fixed;
+    top: -9px;
+    left: -9px;
+    width: 100%;
+    height: 100%;
+    background: #ffb18b;
+}
+
+/*Место с монеткой*/
+div.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffb18b;
+    height: 100%;
+}
+
+/*Большая монетка*/
+img.coin {
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 6%;
+    margin: auto;
+    scale: 1;
+    transition: 0.2s;
+}
+
+/*Верхняя часть. Перевел на Flexbox*/
+div.header {
+    background: #4f7a5d;
+    height: 10%;
+    width: 101%;
+    display: flex;
+}
+
+
+/*Иконка монет. Перевел на Flexbox*/
+img.coin_ico {
+    float: left;
+    margin-left: 1%;
+    margin-top: 0.25%;
+    height: 90%;
+    order: 1;
+}
+
+/*Кол-во монеток. Перевел на Flexbox*/
+a.moneynum {
+    font-size: 84px;
+    line-height: 1;
+    letter-spacing: 0em;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Nerko One;
+    padding-left: 2%;
+    color: #89d7d3;
+    order: 2;
+}
+
+/*Отдельно иконка магазина. Перевёл на Flexbox*/
+img.shop {
+    margin-right: 2%;
+    height: 90%;
+    margin-left: auto;
+    align-self: flex-end;
+    order: 3;
+}
+
+div.shop {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 101%;
+    background: #ffb18b;
+    padding-top: 2%;
+    justify-content: center;
+
+
+}
+
+img.imgcoin {
+    height: 25%;
+    padding: 10%;
+}
+
+@media screen and (max-width: 500px) {
+    div.card {
+        height: 25%;
+        width: 40%;
+        border-radius: 20%;
+    }
+
+    div.card1 {
+        height: 25%;
+        width: 40%;
+        border-radius: 20%;
+    }
+
+    a.button{
+        padding: 10%;
+        padding-inline: 18%;
+        font-size: 200%;
+        margin: auto;
+
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width:1023px){
+    div.card {
+        height: 25%;
+        width: 35%;
+        border-radius: 15%;
+    }
+
+    div.card1 {
+        height: 25%;
+        width: 35%;
+        border-radius: 15%;
+    }
+
+    a.button{
+        padding: 10%;
+        padding-inline: 18%;
+        font-size: 6.495wh;
+        margin-top: 55%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    div.card {
+        height: 45%;
+        width: 22%;
+        border-radius: 20%;
+
+    }
+
+    div.card1 {
+        height: 45%;
+        width: 22%;
+        border-radius: 20%;
+    }
+
+    a.button{
+        padding: 5%;
+        padding-inline: 10%;
+        font-size: 6.495wh;
+        margin-top: 58%;
+        font-size: 5.548vh;  
+        
+    }
+
+}
+
+div.card {
+    background: coral;
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: 1.5%;
+    /*margin-left: 8%;*/
+    margin-bottom: 10px;
+    
+}
+
+div.card1 {
+    
+    background: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: 1.5%;
+    margin-right: 1%;
+    
+}
+
+p.cardtext{
+    font-size: 2vh;
+}
+
+a.button {
+	background:  rgb(47, 148, 50);
+	height: 5%;
+    width: 20%;
+    border: #4b4a4a;
+    border-radius: 15px;
+    font-family: Nerko One;
+    line-height: 0.2;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+a.button:hover{
+    color: white;
+    box-shadow: 0px 0px 20px #00ff1e;
+}
+
