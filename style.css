@@ -4,6 +4,11 @@
     src: url(fonts/NerkoOne-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url(fonts/BalsamiqSans-Regular.ttf);
+}
+
 /*Весь документ*/
 body {
     position: fixed;
@@ -46,7 +51,6 @@ div.header {
 img.coin_ico {
     float: left;
     margin-left: 1%;
-    margin-top: 0.25%;
     height: 90%;
     order: 1;
 }
@@ -86,8 +90,10 @@ div.shop {
 }
 
 img.imgcoin {
-    height: 25%;
+    
     padding: 10%;
+    float: left;
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -95,22 +101,41 @@ img.imgcoin {
         height: 25%;
         width: 40%;
         border-radius: 20%;
+        margin-top: 2.5%;
     }
 
     div.card1 {
         height: 25%;
         width: 40%;
         border-radius: 20%;
+        margin-top: 2.5%;
     }
 
     a.button{
-        padding: 10%;
-        padding-inline: 18%;
-        font-size: 200%;
-        margin: auto;
-
+        padding: 5%;
+        padding-inline: 10%;
+        margin-top: 13%;
+        font-size: 3vh;  
+    
     }
 
+    img.imgcoin{
+        height: 40px;
+        width: 40px;
+    }
+
+    p.description{
+        font-size: 1.8vh;
+        margin-top: auto;
+    }
+    
+    p.descriptionin{
+        font-size: 1.8vh;
+        margin-top: auto;
+    }
+    img.coin_ico{
+        margin-top: 1.2%;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width:1023px){
@@ -153,11 +178,22 @@ img.imgcoin {
         padding: 5%;
         padding-inline: 10%;
         font-size: 6.495wh;
-        margin-top: 58%;
+        margin-top: 13%;
         font-size: 5.548vh;  
         
     }
 
+    p.description{
+        font-size: 3.25vh;
+    }
+
+    p.descriptionin{
+        font-size: 3.25vh;
+    }
+
+    img.coin_ico{
+        margin-top: 0.25%;
+    }
 }
 
 div.card {
@@ -165,8 +201,8 @@ div.card {
     display: flex;
     flex-wrap: wrap;
     margin-inline: 1.5%;
-    /*margin-left: 8%;*/
-    margin-bottom: 10px;
+    /*margin-left: 8%;
+    margin-bottom: 10px;*/
     
 }
 
@@ -180,7 +216,7 @@ div.card1 {
     
 }
 
-p.cardtext{
+div.cardtext{
     font-size: 2vh;
 }
 
@@ -205,3 +241,17 @@ a.button:hover{
     box-shadow: 0px 0px 20px #00ff1e;
 }
 
+p.description {
+    text-align: center;
+    padding-inline: 20%;
+   /* font-size: 3.25vh;*/
+    font-family: Balsamiq Sans;
+}
+
+p.descriptionin {
+    text-align: center;
+    padding-left: 33%;
+    /*font-size: 3.25vh;*/
+    padding-right: 27%;
+    font-family: Balsamiq Sans;
+}

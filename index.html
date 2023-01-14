@@ -17,14 +17,14 @@
   <link rel="shortcut icon" href="favicons/favicon.ico">
 </head>
 
-<body>
+<body onload="onload();">
 
 
 
   <div class="header">
 
     <img class="coin_ico" src="img/coin_ico.svg">
-    <img class="shop" src="img/shop.svg">
+    <img class="shop" src="img/shop.svg" id="shopkey">
     <a class="moneynum" id="mymoneynum">0</a>
 
   </div>
@@ -36,54 +36,53 @@
   <div class="shop" id="shopwin">
 
     <div class="card">
-      <img class="imgcoin" src="coins/bitcoin.svg">
-      <!--<p class="cardtext">Сама нестабильность! Может как сильно увеличить, так и сильно уменьшить количество ваших
-        монет.</p>-->
-        <a class="button" id="bitcoin">Buy</a>
+
+      <div class="cardtext"><img class="imgcoin" src="coins/bitcoin.svg" width="80px" height="80px"> <a class="button" width="137px" height="53px" id="bitcoin">Buy</a></br>
+        <p class="description" width="340px" height="200px">Увеличивает или уменьшает финансы</p>
+      </div>
     </div>
 
     <div class="card1">
-      <img class="imgcoin" src="coins/dash.svg">
-      <!--<p class="cardtext">Одна из самых технологичных монет. Награда за клик 2.</p>-->
-      <a class="button" id="dash">Buy</a>
+      <div class="cardtext"><img class="imgcoin" src="coins/dash.svg" width="91px" height="91px"> <a class="button" width="137px" height="53px" id="bitcoin">Buy</a></br>
+        <p class="description" width="340px" height="200px">Награда за клик, 2 монеты</p>
+      </div>
     </div>
 
     <div class="card">
-      <img class="imgcoin" src="coins/ethereum.svg">
-      <!--<p class="cardtext">Самая популярная монета. Награда от 1 до 4.</p>-->
-      <a class="button" id="ethereum">Buy</a>
+      <div class="cardtext"><img class="imgcoin" src="coins/ethereum.svg" width="91px" height="91px"> <a class="button" width="137px" height="53px" id="bitcoin">Buy</a></br>
+        <p class="description" width="340px" height="200px">Награда от 1 до 4 монет за клик</p>
+      </div>
     </div>
 
     <div class="card1">
-      <img class="imgcoin" src="coins/monero.svg">
-      <!--<p class="cardtext">Привет от майнинга на процессорах. Награда 1, но есть шанс получить 20 за клик.</p>-->
-      <a class="button" id="monero">Buy</a>
+      <div class="cardtext"><img class="imgcoin" src="coins/monero.svg" width="80px" height="80px"> <a class="button" width="137px" height="53px" id="bitcoin">Buy</a></br>
+        <p class="description" width="340px" height="200px">Награда 1 или 20 монет за клик</p>
+      </div>
     </div>
 
     <div class="card">
-      <img class="imgcoin" src="coins/ripple.svg">
-      <!--<p class="cardtext">Валюта для платежных систем. Известна в узких кругах. Награда 3.</p>-->
-      <a class="button" id="ripple">Buy</a>
+      <div class="cardtext"><img class="imgcoin" src="coins/ripple.svg" width="97px" height="97px"> <a class="button" width="137px" height="53px" id="bitcoin">Buy</a></br>
+        <p class="descriptionin" width="340px" height="200px">Награда 3 монеты за клик</p>
+      </div>
     </div>
 
     <div class="card1">
-      <img class="imgcoin" src="coins/tron.svg">
-      <!--<p class="cardtext">Валюта, а также платформа децинтрализованного интернета. Награда от 7 до 15.</p>-->
-      <a class="button" id="tron">Buy</a>
+      <div class="cardtext"><img class="imgcoin" src="coins/tron.svg" width="89.3px" height="89.3px"> <a class="button" width="137px" height="53px" id="bitcoin">Buy</a></br>
+        <p class="description" width="340px" height="200px">Награда от 7 до 15 монет за клик</p>
+      </div>
     </div>
 
     <div class="card">
-      <img class="imgcoin" src="coins/usdt.svg">
-      <!--<p class="cardtext">КриптоДоллар. Немного вырастает и немного падает. Награда от 3 до 7.</p>-->
-      <a class="button" id="usdt">Buy</a>
+      <div class="cardtext"><img class="imgcoin" src="coins/usdt.svg" width="91px" height="91px"> <a class="button" width="137px" height="53px" id="bitcoin">Buy</a></br>
+        <p class="description" width="340px" height="200px">Награда от 3 до 7 монет за клик</p>
+      </div>
     </div>
 
     <div class="card1">
-      <img class="imgcoin" src="coins/coin.svg">
-      <!--<p class="cardtext">Монетка из начала игры. Награда 1.</p>-->
-      <a class="button" id="coin">Buy</a>
+      <div class="cardtext"><img class="imgcoin" src="coins/coin.svg" width="97px" height="97px"> <a class="button" width="137px" height="53px" id="bitcoin">Buy</a></br>
+        <p class="descriptionin" width="340px" height="200px">Награда 1 монетка за клик</p>
+      </div>
     </div>
-
   </div>
 
   <script src="js/click.js"></script>
