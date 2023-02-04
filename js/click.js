@@ -4,11 +4,28 @@ let click = 1;
 let clicker = document.getElementById("clicker");
 let shopis = false;
 let shop = document.getElementById("shopkey");
+let nameC = "Coin";
+let kof = 0;
+
+
+
 
 //Отработчик нажатий на монетку
 clicker.onclick = clickCheck;
 function clickCheck() {
-  mymoney = mymoney + click;
+  if(nameC=="Coin")
+  {
+    mymoney = mymoney + click;
+  }
+  else if(nameC=="Bitcoin"){
+    kof = Math.random() * (2 - 0.1) + 0.1;
+    kof=kof.toFixed(1);
+    mymoney = Math.ceil(mymoney * kof);
+  }
+  else{
+    alert("ОШИБОЧКА ВЫШЛА");
+  }
+  
   localStorage.setItem('localmoney', mymoney);
   if (localStorage.getItem("localmoney") == "NaN"){
     localStorage.setItem('localmoney', 1);
@@ -16,6 +33,8 @@ function clickCheck() {
   }
   document.getElementById("mymoneynum").innerHTML = localStorage.getItem('localmoney');
 };
+
+
 
 //Отработчик анимации после нажатия
 document.getElementsByClassName("coin")[0].addEventListener('click',
@@ -45,6 +64,8 @@ function shopwindow() {
 function onload(){
   mymoney = parseInt(localStorage.getItem('localmoney'));  
   document.getElementById("mymoneynum").innerHTML = localStorage.getItem('localmoney');
-
-  
 }
+
+
+
+

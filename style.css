@@ -21,11 +21,13 @@ body {
 
 /*Место с монеткой*/
 div.main {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
     background: #ffb18b;
     height: 100%;
+    display: none;
+    z-index: 1;
 }
 
 /*Большая монетка*/
@@ -85,6 +87,9 @@ div.shop {
     background: #ffb18b;
     padding-top: 2%;
     justify-content: center;
+    z-index: 2;
+    filter: blur(0px);
+
 
 
 }
@@ -221,7 +226,7 @@ div.cardtext{
 }
 
 a.button {
-	background:  rgb(47, 148, 50);
+    background:  rgb(47, 148, 50);
 	height: 5%;
     width: 20%;
     border: #4b4a4a;
@@ -232,7 +237,7 @@ a.button {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    cursor: pointer;
 }
 
 
@@ -255,3 +260,106 @@ p.descriptionin {
     padding-right: 27%;
     font-family: Balsamiq Sans;
 }
+
+  
+  .product-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .product-text {
+    height: 250px;
+    width: 327px;
+  }
+  
+  .product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 48px;
+    color: #474747;
+  }
+  
+  .product-text h1,
+  .product-price-btn p {
+    font-family: 'Balsamiq Sans', serif;
+  }
+  
+  .product-text p {
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: 'Balsamiq Sans', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 25px;
+    font-weight: lighter;
+    overflow: hidden;
+  }
+  
+  .product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 17px;
+    position: relative;
+  }
+  
+  .product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    height: 50px;
+    font-family: 'Balsamiq Sans', serif;
+    margin: 0 0 0 38px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #474747;
+  }
+  
+  span {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Nerko One', serif;
+    font-size: 34px;
+  }
+  
+  .product-price-btn button {
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    margin: -20px 0px 30px 50%;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background:  rgb(47, 148, 50);
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+
+  }
+  
+
+div.buyinfo{
+    z-index: 3;
+    position: absolute;
+    display: none;
+    border-radius: 48px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+}
+.product-price-btn button:hover{
+    box-shadow: 0px 0px 20px #950b9f;
+  }
