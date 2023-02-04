@@ -21,12 +21,11 @@ body {
 
 /*Место с монеткой*/
 div.main {
-    /*display: flex;*/
+    display: flex;
     align-items: center;
     justify-content: center;
     background: #ffb18b;
     height: 100%;
-    display: none;
     z-index: 1;
 }
 
