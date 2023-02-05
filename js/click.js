@@ -15,12 +15,30 @@ clicker.onclick = clickCheck;
 function clickCheck() {
   if(nameC=="Coin")
   {
-    mymoney = mymoney + click;
+    mymoney = mymoney + 1;
   }
   else if(nameC=="Bitcoin"){
     kof = Math.random() * (2 - 0.1) + 0.1;
     kof=kof.toFixed(1);
     mymoney = Math.ceil(mymoney * kof);
+  }
+  else if(nameC=="Dash"){
+    mymoney = mymoney + 2;
+  }
+  else if(nameC=="Ethereum"){
+    mymoney = mymoney + intrandom(1,4);
+  }
+  else if(nameC=="Monero"){
+    mymoney = mymoney + intrandom(1,20);
+  }
+  else if(nameC=="Ripple"){
+    mymoney = mymoney + 3;
+  }
+  else if(nameC=="Tron"){
+    mymoney = mymoney + intrandom(7,15);
+  }
+  else if(nameC=="USDT"){
+    mymoney = mymoney+intrandom(3,7);
   }
   else{
     alert("ОШИБОЧКА ВЫШЛА");
@@ -66,6 +84,8 @@ function onload(){
   document.getElementById("mymoneynum").innerHTML = localStorage.getItem('localmoney');
 }
 
-
+function intrandom(min, max) {
+  return Math.floor(Math.random() * (Math.floor(max) - Math.ceil(min) + 1)) + Math.ceil(min);
+}
 
 

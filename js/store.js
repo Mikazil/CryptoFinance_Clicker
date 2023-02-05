@@ -13,7 +13,7 @@ document.getElementById("dashbuy").onclick = dashbuyfunc;
 function dashbuyfunc() {
     document.getElementById("prcard").style.display = "flex";
     document.getElementById("h1text").innerHTML = "Dash";
-    document.getElementById("prctext").innerHTML = "Вы будете получать<br> по 2  монеты за каждое нажатие.";
+    document.getElementById("prctext").innerHTML = "Вы будете получать<br> по 2 монеты за каждое нажатие.";
     document.getElementById("shopwin").style.filter = "blur(7px)";
     document.getElementById("price").innerHTML = "999";
 };
