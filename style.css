@@ -94,10 +94,10 @@ div.shop {
 }
 
 img.imgcoin {
-    
+
     padding: 10%;
     float: left;
-    
+
 }
 
 @media screen and (max-width: 500px) {
@@ -115,34 +115,35 @@ img.imgcoin {
         margin-top: 2.5%;
     }
 
-    a.button{
+    a.button {
         padding: 5%;
         padding-inline: 10%;
         margin-top: 13%;
-        font-size: 3vh;  
-    
+        font-size: 3vh;
+
     }
 
-    img.imgcoin{
+    img.imgcoin {
         height: 40px;
         width: 40px;
     }
 
-    p.description{
+    p.description {
         font-size: 1.8vh;
         margin-top: auto;
     }
-    
-    p.descriptionin{
+
+    p.descriptionin {
         font-size: 1.8vh;
         margin-top: auto;
     }
-    img.coin_ico{
+
+    img.coin_ico {
         margin-top: 1.2%;
     }
 }
 
-@media screen and (min-width: 501px) and (max-width:1023px){
+@media screen and (min-width: 501px) and (max-width:1023px) {
     div.card {
         height: 25%;
         width: 35%;
@@ -155,7 +156,7 @@ img.imgcoin {
         border-radius: 15%;
     }
 
-    a.button{
+    a.button {
         padding: 10%;
         padding-inline: 18%;
         font-size: 6.495wh;
@@ -178,24 +179,24 @@ img.imgcoin {
         border-radius: 20%;
     }
 
-    a.button{
+    a.button {
         padding: 5%;
         padding-inline: 10%;
         font-size: 6.495wh;
         margin-top: 13%;
-        font-size: 5.548vh;  
-        
+        font-size: 5.548vh;
+
     }
 
-    p.description{
+    p.description {
         font-size: 3.25vh;
     }
 
-    p.descriptionin{
+    p.descriptionin {
         font-size: 3.25vh;
     }
 
-    img.coin_ico{
+    img.coin_ico {
         margin-top: 0.25%;
     }
 }
@@ -207,26 +208,26 @@ div.card {
     margin-inline: 1.5%;
     /*margin-left: 8%;
     margin-bottom: 10px;*/
-    
+
 }
 
 div.card1 {
-    
+
     background: aqua;
     display: flex;
     flex-wrap: wrap;
     margin-inline: 1.5%;
     margin-right: 1%;
-    
+
 }
 
-div.cardtext{
+div.cardtext {
     font-size: 2vh;
 }
 
 a.button {
-    background:  rgb(47, 148, 50);
-	height: 5%;
+    background: rgb(47, 148, 50);
+    height: 5%;
     width: 20%;
     border: #4b4a4a;
     border-radius: 15px;
@@ -240,7 +241,7 @@ a.button {
 }
 
 
-a.button:hover{
+a.button:hover {
     color: white;
     box-shadow: 0px 0px 20px #00ff1e;
 }
@@ -248,7 +249,7 @@ a.button:hover{
 p.description {
     text-align: center;
     padding-inline: 20%;
-   /* font-size: 3.25vh;*/
+    /* font-size: 3.25vh;*/
     font-family: Balsamiq Sans;
 }
 
@@ -260,8 +261,8 @@ p.descriptionin {
     font-family: Balsamiq Sans;
 }
 
-  
-  .product-info {
+
+.product-info {
     float: left;
     height: 420px;
     width: 327px;
@@ -271,26 +272,26 @@ p.descriptionin {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-  }
-  
-  .product-text {
+}
+
+.product-text {
     height: 250px;
     width: 327px;
-  }
-  
-  .product-text h1 {
+}
+
+.product-text h1 {
     margin: 0 0 0 38px;
     padding-top: 52px;
     font-size: 48px;
     color: #474747;
-  }
-  
-  .product-text h1,
-  .product-price-btn p {
+}
+
+.product-text h1,
+.product-price-btn p {
     font-family: 'Balsamiq Sans', serif;
-  }
-  
-  .product-text p {
+}
+
+.product-text p {
     height: 125px;
     margin: 0 0 0 38px;
     font-family: 'Balsamiq Sans', serif;
@@ -299,16 +300,16 @@ p.descriptionin {
     font-size: 25px;
     font-weight: lighter;
     overflow: hidden;
-  }
-  
-  .product-price-btn {
+}
+
+.product-price-btn {
     height: 103px;
     width: 327px;
     margin-top: 17px;
     position: relative;
-  }
-  
-  .product-price-btn p {
+}
+
+.product-price-btn p {
     display: inline-block;
     position: absolute;
     top: 17px;
@@ -318,16 +319,16 @@ p.descriptionin {
     font-size: 28px;
     font-weight: lighter;
     color: #474747;
-  }
-  
-  span {
+}
+
+span {
     display: inline-block;
     height: 50px;
     font-family: 'Nerko One', serif;
     font-size: 34px;
-  }
-  
-  .product-price-btn button {
+}
+
+.product-price-btn button {
     display: inline-block;
     height: 50px;
     width: 150px;
@@ -341,24 +342,89 @@ p.descriptionin {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #ffffff;
-    background:  rgb(47, 148, 50);
+    background: rgb(47, 148, 50);
     cursor: pointer;
     outline: none;
     transition: 0.5s;
-  }
-  
+}
 
-div.buyinfo{
+
+div.buyinfo {
     z-index: 3;
     position: absolute;
     display: none;
     border-radius: 48px;
-    top:0px;
-    left:0px;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
 
 }
-.product-price-btn button:hover{
+
+.product-price-btn button:hover {
     box-shadow: 0px 0px 20px #950b9f;
-  }
+}
+
+
+
+
+
+.notify {
+    font-family: Balsamiq Sans;
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 1px 4px darken(blue, 5%);
+    overflow: hidden;
+    cursor: pointer;
+    margin: 10px 0;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    transition: 1s;
+    filter: opacity(0);
+    z-index: 100;
+}
+
+.notify:first-child {
+    margin: 0 0 10px 0;
+}
+
+.circle {
+    width: 28px;
+    height: 20px;
+    display: block;
+    border-radius: 100%;
+    transform: translate(17px, 17px);
+
+    color: white;
+    padding: 8px 0 23px 9px;
+
+}
+
+.rd>.info span:first-child {
+    color: rgb(0, 0, 0);
+    font-family: Balsamiq Sans;
+}
+
+.info {
+    width: 230px;
+    height: 70px;
+    transform: translate(70px, -35px);
+    padding: 10px;
+}
+
+.info span:first-child {
+    display: block;
+
+    color: green;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.info span a {
+    color: hsl(0, 0%, 33%);
+    text-decoration: none;
+    font-weight: 600;
+}

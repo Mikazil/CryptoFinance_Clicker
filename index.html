@@ -18,8 +18,7 @@
 
 </head>
 
-<body onload="onload();">
-
+<body>
 
 
   <div class="header">
@@ -37,7 +36,6 @@
   <script src="js/click.js"></script>
   </div>
   <div class="buyinfo" id="prcard">
-
     <div class="product-info">
       <div class="product-text">
         <h1 id="h1text"></h1>
@@ -46,9 +44,17 @@
       <div class="product-price-btn">
         <p><span id="price">78</span>$</p>
         <button class="buttonbuy" id="buy">Купить</a>
-        <button class="buttonbuy" id="close">Отмена</a>
+          <button class="buttonbuy" id="close">Отмена</a>
       </div>
     </div>
+  </div>
+
+  <div class="notify rd" id="notification">
+    <img class="circle" src="img/slash.svg"></img>
+    <div class="info">
+      <span>У вас недостаточно средств</span>
+    </div>
+
 
   </div>
 
@@ -109,11 +115,17 @@
         <p class="descriptionin" width="340px" height="200px">Награда 1 монетка за клик</p>
       </div>
     </div>
-    <script src="js/store.js"></script>
+  </div>
+
+  <div class="notify rd" id="notification">
+    <img class="circle" src="img/slash.svg"></img>
+    <div class="info">
+      <span>У вас недостаточно средств</span>
+    </div>
   </div>
 
 
-
+  <script src="js/store.js"></script>
 </body>
 
 </html>

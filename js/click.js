@@ -6,8 +6,7 @@ let shopis = false;
 let shop = document.getElementById("shopkey");
 let kof = 0;
 coinstartcheck();
-
-
+onload();
 
 //Отработчик нажатий на монетку
 clicker.onclick = clickCheck;
