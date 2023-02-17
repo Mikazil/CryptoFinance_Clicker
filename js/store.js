@@ -4,7 +4,7 @@ function btcbuyfunc() {
   document.getElementById("h1text").innerHTML = "Bitcoin";
   document.getElementById("prctext").innerHTML = "Вы будете получать<br>от 1 до 5 монет за каждое нажатие.";
   document.getElementById("shopwin").style.filter = "blur(7px)";
-  document.getElementById("price").innerHTML = "299";
+  document.getElementById("price").innerHTML = "499";
   nameC = document.getElementById("h1text").textContent;
 };
 
@@ -14,7 +14,7 @@ function dashbuyfunc() {
   document.getElementById("h1text").innerHTML = "Dash";
   document.getElementById("prctext").innerHTML = "Вы будете получать<br> по 4 монеты за каждое нажатие.";
   document.getElementById("shopwin").style.filter = "blur(7px)";
-  document.getElementById("price").innerHTML = "999";
+  document.getElementById("price").innerHTML = "3499";
   nameC = document.getElementById("h1text").textContent;
 };
 
@@ -24,7 +24,7 @@ function ethbuyfunc() {
   document.getElementById("h1text").innerHTML = "Ethereum";
   document.getElementById("prctext").innerHTML = "Вы будете получать<br>от 3 до 8 монет за каждое нажатие.";
   document.getElementById("shopwin").style.filter = "blur(7px)";
-  document.getElementById("price").innerHTML = "300";
+  document.getElementById("price").innerHTML = "7499";
   nameC = document.getElementById("h1text").textContent;
 };
 
@@ -34,7 +34,7 @@ function monerobuyfunc() {
   document.getElementById("h1text").innerHTML = "Monero";
   document.getElementById("prctext").innerHTML = "Вы будете получать<br>от 10 до 15 монет за каждое нажатие.";
   document.getElementById("shopwin").style.filter = "blur(7px)";
-  document.getElementById("price").innerHTML = "300";
+  document.getElementById("price").innerHTML = "14999";
   nameC = document.getElementById("h1text").textContent;
 };
 
@@ -45,7 +45,7 @@ function ripbuyfunc() {
   document.getElementById("h1text").innerHTML = "Ripple";
   document.getElementById("prctext").innerHTML = "Вы будете получать<br>по 19 монеты за <br>каждое нажатие.";
   document.getElementById("shopwin").style.filter = "blur(7px)";
-  document.getElementById("price").innerHTML = "300";
+  document.getElementById("price").innerHTML = "24999";
   nameC = document.getElementById("h1text").textContent;
 };
 
@@ -56,7 +56,7 @@ function trxbuyfunc() {
   document.getElementById("h1text").innerHTML = "Tron";
   document.getElementById("prctext").innerHTML = "Вы будете получать<br>от 25 до 35 монет за каждое нажатие.";
   document.getElementById("shopwin").style.filter = "blur(7px)";
-  document.getElementById("price").innerHTML = "300";
+  document.getElementById("price").innerHTML = "34999";
   nameC = document.getElementById("h1text").textContent;
 };
 
@@ -66,7 +66,7 @@ function usdtbuyfunc() {
   document.getElementById("h1text").innerHTML = "USDT";
   document.getElementById("prctext").innerHTML = "Вы будете получать<br>по 50 монет за <br>каждое нажатие.";
   document.getElementById("shopwin").style.filter = "blur(7px)";
-  document.getElementById("price").innerHTML = "300";
+  document.getElementById("price").innerHTML = "49999";
   nameC = document.getElementById("h1text").textContent;
 };
 
@@ -76,7 +76,7 @@ function coinbuyfunc() {
   document.getElementById("h1text").innerHTML = "Coin";
   document.getElementById("prctext").innerHTML = "Вы будете получать 1  монету за каждое нажатие.";
   document.getElementById("shopwin").style.filter = "blur(7px)";
-  document.getElementById("price").innerHTML = "300";
+  document.getElementById("price").innerHTML = "249";
   nameC = document.getElementById("h1text").textContent;
 };
 
