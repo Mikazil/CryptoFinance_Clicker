@@ -15,25 +15,22 @@ function clickCheck() {
     mymoney = mymoney + 1;
   }
   else if (localStorage.getItem("coinname") == "Bitcoin") {
-    //kof = Math.random() * (2 - 0.1) + 0.1;
-    //kof=kof.toFixed(1);
-    //mymoney = Math.ceil(mymoney * kof);
-    mymoney = mymoney + intrandom(1, 10)
+    mymoney = mymoney + intrandom(1, 5)
   }
   else if (localStorage.getItem("coinname") == "Dash") {
-    mymoney = mymoney + 2;
+    mymoney = mymoney + 4;
   }
   else if (localStorage.getItem("coinname") == "Ethereum") {
-    mymoney = mymoney + intrandom(1, 4);
+    mymoney = mymoney + intrandom(3, 8);
   }
   else if (localStorage.getItem("coinname") == "Monero") {
-    mymoney = mymoney + intrandom(1, 20);
+    mymoney = mymoney + intrandom(10, 15);
   }
   else if (localStorage.getItem("coinname") == "Ripple") {
-    mymoney = mymoney + 3;
+    mymoney = mymoney + 19;
   }
   else if (localStorage.getItem("coinname") == "Tron") {
-    mymoney = mymoney + intrandom(7, 15);
+    mymoney = mymoney + intrandom(25, 35);
   }
   else if (localStorage.getItem("coinname") == "USDT") {
     mymoney = mymoney + intrandom(3, 7);
