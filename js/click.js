@@ -33,7 +33,7 @@ function clickCheck() {
     mymoney = mymoney + intrandom(25, 35);
   }
   else if (localStorage.getItem("coinname") == "USDT") {
-    mymoney = mymoney + intrandom(3, 7);
+    mymoney = mymoney + 50;
   }
   else if (localStorage.getItem("coinname") == null) {
     localStorage.setItem("coinname", "Coin")
