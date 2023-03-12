@@ -1,0 +1,19 @@
+{
+  "background_color": "#ffffff",
+  "description": "Игра, позволяющая познакомится с криптовалютами и потратить время",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Crypto Clicker",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "Crypto Clicker",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "games"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [],
+  "lang": "ru"
+}
